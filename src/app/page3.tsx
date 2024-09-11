@@ -9,7 +9,7 @@ function Page3() {
       <div className='vv'>|video view</div>
       <div className='get'>Get Closer View & Different Feeling</div>
       <Image src={'/video-frame.jpg'} width={1000} height={420} alt='' className='frame'/>
-     <a href='https://youtube.com'> <img src={'https://th.bing.com/th/id/OIP.gtj9idWNJK2FXqKJOODhJQHaHa?rs=1&pid=ImgDetMain'} className='playicon'/></a>
+     <a href='https://youtube.com'> <Image src={'https://th.bing.com/th/id/OIP.gtj9idWNJK2FXqKJOODhJQHaHa?rs=1&pid=ImgDetMain'} alt='' className='playicon'/></a>
     </div>
     <div className='threestar'>
         <div className='onestar'>

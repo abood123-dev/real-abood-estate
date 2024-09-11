@@ -55,7 +55,7 @@ function Page4 ( ) {
        <div className='extrainfo'>Extra Info About Property</div>
        <div className='extra2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.</div>
        <div className='extra2'>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</div>
-       <Link href='/Listing' style={{textDecoration:'none',color:"black"}}>   <div> <div className="calenderr"><img src='https://th.bing.com/th/id/OIP.04r7fFOqv3ONvvJZfokfMwAAAA?rs=1&pid=ImgDetMain' alt="" width="25" height="25" className="whitecal"  /> </div> <div className="yourr">Schedule a visit</div></div> </Link>
+       <Link href='/Listing' style={{textDecoration:'none',color:"black"}}>   <div> <div className="calenderr"><Image src='https://th.bing.com/th/id/OIP.04r7fFOqv3ONvvJZfokfMwAAAA?rs=1&pid=ImgDetMain' alt="" width="25" height="25" className="whitecal"  /> </div> <div className="yourr">Schedule a visit</div></div> </Link>
   </div>
   
 </div> : null}
@@ -78,7 +78,7 @@ function Page4 ( ) {
        <div className='extrainfo'>Extra Info About Villa</div>
        <div className='extra2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.</div>
        <div className='extra2'>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</div>
-       <Link href='/Listing' style={{textDecoration:'none',color:"black"}}>  <div>  <div className="calenderr"><img src='https://th.bing.com/th/id/OIP.04r7fFOqv3ONvvJZfokfMwAAAA?rs=1&pid=ImgDetMain' alt="" width="25" height="25" className="whitecal"  /> </div> <div className="yourr">Schedule a visit</div> </div> </Link>
+       <Link href='/Listing' style={{textDecoration:'none',color:"black"}}>  <div>  <div className="calenderr"><Image src='https://th.bing.com/th/id/OIP.04r7fFOqv3ONvvJZfokfMwAAAA?rs=1&pid=ImgDetMain' alt="" width="25" height="25" className="whitecal"  /> </div> <div className="yourr">Schedule a visit</div> </div> </Link>
   </div>
   
 </div> : null}  
@@ -101,7 +101,7 @@ function Page4 ( ) {
        <div className='extrainfo'>Extra Info About  Penthouse</div>
        <div className='extra2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.</div>
        <div className='extra2'>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</div>
-       <Link href='/Listing' style={{textDecoration:'none',color:"black"}}>   <div> <div className="calenderr"><img src='https://th.bing.com/th/id/OIP.04r7fFOqv3ONvvJZfokfMwAAAA?rs=1&pid=ImgDetMain' alt="" width="25" height="25" className="whitecal"  /> </div> <div className="yourr">Schedule a visit</div></div> </Link>
+       <Link href='/Listing' style={{textDecoration:'none',color:"black"}}>   <div> <div className="calenderr"><Image src='https://th.bing.com/th/id/OIP.04r7fFOqv3ONvvJZfokfMwAAAA?rs=1&pid=ImgDetMain' alt="" width="25" height="25" className="whitecal"  /> </div> <div className="yourr">Schedule a visit</div></div> </Link>
   </div>
   
 </div> : null}    

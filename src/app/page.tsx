@@ -25,8 +25,8 @@ export default function Home() {
     }}    
     >
     {images.map((image,index)=>(
-      <SwiperSlide>
-      <div className="bestvilla" key={index}>
+      <SwiperSlide key={index}>
+      <div className="bestvilla" >
       <Image src={image} width={1300} height={700} alt="" className="respon"/>
      </div>
      </SwiperSlide>

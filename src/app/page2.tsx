@@ -15,11 +15,11 @@ function Page2() {
         <div className='besta'>Best Appartment & Sea view</div>
         <div className='usecont'>
         <div className='use' onClick={()=>setv1(!visible1)}>Best useful links?</div>
-       { visible1 ? ( <div className='use2'>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>) : null}
+       { visible1 ? ( <div className='use2'>Dolor almesit amet, consectetur adipiscing elit, sed doesnt&#39;eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>) : null}
         <div className='use' onClick={()=>setv2(!visible2)}>How does this work?</div>
-      {visible2 ?  <div className='use2'>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div> : null}
+      {visible2 ?  <div className='use2'>Dolor almesit amet, consectetur adipiscing elit, sed doesn&#39;t eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div> : null}
         <div className='use' onClick={()=>setv3(!visible3)}>Why is villa agency the best?</div>
-      {visible3 ? ( <div className='use2'>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>) : null}
+      {visible3 ? ( <div className='use2'>Dolor almesit amet, consectetur adipiscing elit, sed doesn&#39;t eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>) : null}
       </div>
       </div>
       <div className='cont3'>

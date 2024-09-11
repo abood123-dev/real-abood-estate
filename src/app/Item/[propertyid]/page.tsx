@@ -8,7 +8,8 @@ import { addItem } from '@/app/Store/Itemsslice';
 import { UseSelector } from 'react-redux';
 import { RootState } from '@/app/Store/Store';
 import { stat } from 'fs';
-export default function UserProfile({params} : any) { 
+export default function UserProfile({params} : any) {
+ 
   const[Data1,setdata1]=useState<Style[] | any>([]);
   const[Data2,setdata2]=useState<Style[] | any>([]);
   const items=useSelector((state:RootState)=>state.cart.items);
@@ -77,14 +78,14 @@ export default function UserProfile({params} : any) {
       <>
       <div className='data12'>
         <div className='Data2'>
-             <div><img className='Data2img' src={Data2.pics}/></div>
+             <div><Image className='Data2img' src={Data2.pics} alt=''/></div>
              <div className='Data2type'>{Data2.type}</div>
              <div className='Data2row'>
              <div className='Data2desc'>{Data2.description}</div>
              <div><button className='Addvisit' onClick={Addtocart}>Add a visit</button></div>
              </div>
-             <div className='Data2bla'>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor kinfolk tonx seitan crucifix 3 wolf moon bicycle rights keffiyeh snackwave wolf same vice, chillwave vexillologist incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-             <div className='Data2bla'>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor kinfolk tonx seitan crucifix 3 wolf moon bicycle rights keffiyeh snackwave wolf same vice, chillwave vexillologist incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+             <div className='Data2bla'>Dolor almesit amet, consectetur adipiscing elit, sed doesn&#39;t eiusmod tempor kinfolk tonx seitan crucifix 3 wolf moon bicycle rights keffiyeh snackwave wolf same vice, chillwave vexillologist incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+             <div className='Data2bla'>Dolor almesit amet, consectetur adipiscing elit, sed doesn&#39;t eiusmod tempor kinfolk tonx seitan crucifix 3 wolf moon bicycle rights keffiyeh snackwave wolf same vice, chillwave vexillologist incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
              {Redone ? ( <div className='redcircle'>{items.length}</div> ) : null}   
         </div>
         <div className='cont3'>

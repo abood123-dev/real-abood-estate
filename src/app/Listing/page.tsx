@@ -88,7 +88,7 @@ function Listing() {
         {listings.map((listing:Style) => (
             <div className='property' key={listing.id}>
               <div>  
-               <img src={listing.pics} className='propic'/>
+               <Image src={listing.pics} className='propic' alt=''/>
               </div>
               <div className='prico'>
             <div className='protype'>{listing.type}</div>

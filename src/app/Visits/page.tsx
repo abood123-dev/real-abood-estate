@@ -32,8 +32,8 @@ function Visits() {
         {
         return(
             
-        <div className='visitt'>
-         <div><img src={item.pics} className='visitpic'/></div>
+        <div className='visitt' key={item.id}>
+         <div><Image src={item.pics} className='visitpic' alt=''/></div>
          <div className='descwithprice'>
          <div className='visitdesc'>{item.description}</div>
          <div className='visitprice'>{item.price}</div> 

@@ -60,7 +60,7 @@ function Pagecont() {
        <div className='con2'>
             <div className='concon'>| Contact us</div>
             <div className='getin'>Get In Touch With Our Agents</div>
-            <div className='dolor'>Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <div className='dolor'>Dolor almesit amet, consectetur adipiscing elit, sed doesn&#39;t eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
             <div className='phone'>
                   <div><Image src='/phone-icon.png' width={50} height={50} alt=''/></div>
                   <div><div className='number'>010-020-0340</div> <div className='numinfo'>Phone Number</div> </div>
@@ -91,7 +91,7 @@ function Pagecont() {
                  <div><textarea placeholder='Your Message...' className='inp2'  onChange={(e)=>setfour(e.target.value)}/></div>
                  {Notempty4 ? (<div style={{color:"red"}}> You should put your Message </div>) : null}
             </div>
-            {Green ? (<div style={{color:"green"}}> your message has sent I'll reply as soon as I can </div>): null}
+            {Green ? (<div style={{color:"green"}}> your message has sent I&#39;ll reply as soon as I can </div>): null}
             <div><button className='sendm' onClick={HandleClick}>Send Message</button></div>
             
        </div>
