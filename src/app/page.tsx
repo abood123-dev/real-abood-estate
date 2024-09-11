@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import './globals.css';
 import Image from "next/image";
 import styles from "./page.module.css";
 import { Swiper,SwiperSlide }  from "swiper/react";

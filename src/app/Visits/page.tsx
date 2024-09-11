@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector, UseSelector } from 'react-redux';
+import '../globals.css';
 import { RootState } from '../Store/Store';
 import { Style } from '../Listing/page';
 import Image from 'next/image';
