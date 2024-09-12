@@ -1,5 +1,4 @@
 "use client";
-import '../globals.scss';
 import React, { useState } from 'react'
 import Image from 'next/image'
 function Pagecont() {

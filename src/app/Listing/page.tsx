@@ -1,5 +1,4 @@
 "use client";
-import '../globals.scss';
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';

@@ -1,5 +1,4 @@
 "use client";
-import '../../globals.scss';
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { Style } from '@/app/Listing/page';
