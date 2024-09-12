@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import './globals.css';
+import './globals.scss';
 function Page3() {
   return (
     <>
