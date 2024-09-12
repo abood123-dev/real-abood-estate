@@ -2,7 +2,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.scss";
+import styles from "./page.module.css";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -88,7 +88,7 @@ export default function RootLayout({
       </Head>
       <body className={inter.className}>
       <Provider store={store}>
-     <div className="Header" style={Coolstyle}>
+     <div className={styles.Header} style={Coolstyle}>
       <div className="villa">Villa</div>  
       <div className="secondop">
       <Link href='/' style={{textDecoration:'none',color: Color1 ? 'coral' : 'black' }}>  <div onClick={HandleColor1} >Home</div> </Link> <Link href='/Listing' style={{textDecoration:'none',color: Color2  ? 'coral' : 'black' }}><div onClick={HandleColor2}>Properties</div></Link> <Link href='/Visits' style={{textDecoration:'none',color:Color3 ? 'coral' : 'black' }}>  <div onClick={HandleColor3}>Your visits</div> </Link> <Link href='/Contact' style={{textDecoration:'none',color:Color4 ? 'coral' : 'black' }}><div onClick={HandleColor4}>Contact us</div></Link> <Link href='/Listing' style={{textDecoration:'none',color:"black"}}>  <div className="calender" onClick={HandleColor2}><Image src='https://th.bing.com/th/id/OIP.04r7fFOqv3ONvvJZfokfMwAAAA?rs=1&pid=ImgDetMain' alt="" width="25" height="25" className="whitecal"  /> </div> <div className="your" onClick={HandleColor2}>Schedule a visit</div> </Link>  
