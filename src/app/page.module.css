@@ -801,13 +801,13 @@ border-radius: 6px;
   align-items: center;
   padding-top: 30px;
 }
-body
+:global(body)
 {
   overflow-x: hidden;
 }
 @media only screen and (max-width: 480px)
 {
- html,body {
+  :global(body) {
     overflow-x: hidden;
     width: 100%;
     max-width: 100%;
