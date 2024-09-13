@@ -801,17 +801,8 @@ border-radius: 6px;
   align-items: center;
   padding-top: 30px;
 }
-:global(body)
-{
-  overflow-x: hidden;
-}
 @media only screen and (max-width: 480px)
 {
-  :global(body) {
-    overflow-x: hidden;
-    width: 100%;
-    max-width: 100%;
-  }
   .Header
  {
 display: flex; 
