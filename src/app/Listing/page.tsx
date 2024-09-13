@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import '../page.module.css';
 import { useDispatch, UseDispatch } from 'react-redux';
 export interface Style
 {

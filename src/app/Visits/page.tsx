@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector, UseSelector } from 'react-redux';
 import { RootState } from '../Store/Store';
 import { Style } from '../Listing/page';
+import '../page.module.css';
 import Image from 'next/image';
 import { UseDispatch } from 'react-redux';
 import { removeItem } from '../Store/Itemsslice';

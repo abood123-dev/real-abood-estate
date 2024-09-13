@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import './page.module.css';
 function Page4 ( ) {
   const [Visible1,setvisi1]=useState(true);
   const[Visible2,setvisi2]=useState(false);

@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import './page.module.css';
 import Link from "next/link";
 import { Provider, useSelector } from "react-redux";
 import store, { RootState } from "./Store/Store";

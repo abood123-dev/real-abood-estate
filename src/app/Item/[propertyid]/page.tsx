@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { Style } from '@/app/Listing/page';
+import '../../page.module.css';
 import Image from 'next/image';
 import { useDispatch, UseDispatch, useSelector } from 'react-redux';
 import { addItem } from '@/app/Store/Itemsslice';

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
+import '../page.module.css';
 function Pagecont() {
    const[input1,setone]=useState<string>('');
    const[input2,settwo]=useState<string>('');

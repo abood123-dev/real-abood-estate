@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
+import './page.module.css';
 function Page2() {
     const [visible1,setv1]=useState(false);
     const [visible2,setv2]=useState(false);
