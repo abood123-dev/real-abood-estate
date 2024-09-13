@@ -5,7 +5,6 @@ import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import './page.module.css';
 import Link from "next/link";
 import { Provider, useSelector } from "react-redux";
 import store, { RootState } from "./Store/Store";
@@ -100,8 +99,8 @@ width:"100%"
       <body className={inter.className}>
       <Provider store={store}>
      <div className={styles.Header} style={Header}>
-      <div className="villa">Villa</div>  
-      <div className="secondop">
+      <div className={styles.villa}>Villa</div>  
+      <div className={styles.secondop}>
       <Link href='/' style={{textDecoration:'none',color: Color1 ? 'coral' : 'black' }}>  <div onClick={HandleColor1} >Home</div> </Link> <Link href='/Listing' style={{textDecoration:'none',color: Color2  ? 'coral' : 'black' }}><div onClick={HandleColor2}>Properties</div></Link> <Link href='/Visits' style={{textDecoration:'none',color:Color3 ? 'coral' : 'black' }}>  <div onClick={HandleColor3}>Your visits</div> </Link> <Link href='/Contact' style={{textDecoration:'none',color:Color4 ? 'coral' : 'black' }}><div onClick={HandleColor4}>Contact us</div></Link> <Link href='/Listing' style={{textDecoration:'none',color:"black"}}>  <div className="calender" onClick={HandleColor2}><Image src='https://th.bing.com/th/id/OIP.04r7fFOqv3ONvvJZfokfMwAAAA?rs=1&pid=ImgDetMain' alt="" width="25" height="25" className="whitecal"  /> </div> <div className="your" onClick={HandleColor2}>Schedule a visit</div> </Link>  
       </div>
       </div>  
