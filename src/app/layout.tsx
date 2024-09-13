@@ -73,14 +73,24 @@ export default function RootLayout({
         window.removeEventListener('scroll', handleScroll);
       };
     }, [Isvisible]);
-    const Coolstyle: React.CSSProperties=
-    {
-      opacity: Isvisible ? 1 : 0,
-      transition: "ease-out 0.3s",
-      position:"fixed",
-      zIndex:'100',
-      width:"100%" 
-    }
+const Header :React.CSSProperties = 
+{
+ display:"flex",
+ flexDirection:"row",
+ justifyContent:"center",
+ alignItems:"center",
+ alignContent:"center",
+gap: '300',
+paddingTop: '20',
+backgroundColor: '#f5f5f5',
+top: '0',
+paddingBottom:"20",
+opacity: Isvisible ? 1 : 0,
+transition: "ease-out 0.3s",
+position:"fixed",
+zIndex:'100',
+width:"100%"
+}
   return (
     <html lang="en">
        <Head>
@@ -88,7 +98,7 @@ export default function RootLayout({
       </Head>
       <body className={inter.className}>
       <Provider store={store}>
-     <div className={styles.Header} style={Coolstyle}>
+     <div className={styles.Header} style={Header}>
       <div className="villa">Villa</div>  
       <div className="secondop">
       <Link href='/' style={{textDecoration:'none',color: Color1 ? 'coral' : 'black' }}>  <div onClick={HandleColor1} >Home</div> </Link> <Link href='/Listing' style={{textDecoration:'none',color: Color2  ? 'coral' : 'black' }}><div onClick={HandleColor2}>Properties</div></Link> <Link href='/Visits' style={{textDecoration:'none',color:Color3 ? 'coral' : 'black' }}>  <div onClick={HandleColor3}>Your visits</div> </Link> <Link href='/Contact' style={{textDecoration:'none',color:Color4 ? 'coral' : 'black' }}><div onClick={HandleColor4}>Contact us</div></Link> <Link href='/Listing' style={{textDecoration:'none',color:"black"}}>  <div className="calender" onClick={HandleColor2}><Image src='https://th.bing.com/th/id/OIP.04r7fFOqv3ONvvJZfokfMwAAAA?rs=1&pid=ImgDetMain' alt="" width="25" height="25" className="whitecal"  /> </div> <div className="your" onClick={HandleColor2}>Schedule a visit</div> </Link>  
